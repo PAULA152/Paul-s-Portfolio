@@ -1,0 +1,233 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Smooch+Sans&display=swap');
+
+/*General style*/
+* {
+    box-sizing: border-box;
+    background-color: #D4D6D6;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Header*/
+header {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding: 10px 225px;
+}
+
+h1 {
+    font-variant: small-caps;
+    word-spacing: 15px;
+}
+
+/*Navigation bar*/
+nav {
+    width: 80%;
+    margin-bottom: 0;
+    margin-right: 350px;
+    border-bottom: 1px solid black;
+}
+
+.nav_links {
+    float: right;
+    list-style: none;
+
+}
+
+.nav_links li {
+    display: inline-block;
+}
+
+.nav_button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #D4D6D6;
+    cursor: pointer;
+    list-style: none;
+    font-size: 125%;
+    font-weight: 400;
+    color: #D4D6D6;
+    text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
+
+.nav_button:hover {
+    color: #000000;
+}
+
+.nav_button:hover {
+    background-color:rgba(0, 0, 0,);
+}
+/*END NAV BAR*/
+/*END HEADER*/
+
+
+/*Body Section*/
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 125%;
+    background: transparent;
+}
+
+h4 {
+    font-size: 90%;
+    background: transparent;
+}
+
+
+p {
+    font-size: 75%;
+    background: transparent;
+}
+
+
+/*About Me Section*/
+.Aboutme {
+    display: flex;
+    flex-flow: row wrap;
+    flex-shrink: 2;
+    justify-content: space-between;
+    background: transparent;
+    padding: 10px 110px;
+    border-bottom: 1px solid black;
+}
+
+.Aboutflex {
+    width: auto;
+}
+
+.Aboutimage {
+    display: flex;
+    margin: auto;
+ }
+
+ .Aboutimage img {
+    display: block;
+    max-width: 500px;
+    max-height: 500px;   
+    border: 2px solid #000000;
+    border-radius: 50%;
+ }
+
+
+/*Work Section*/
+.Work {
+    display: flex;
+    flex-flow: row wrap;
+    flex-shrink: 2;
+    justify-content: space-between;
+    background: transparent;
+    padding: 10px 110px;
+    border-bottom: 1px solid black;
+}
+
+.Work h4 {
+    display: flex;
+    width: auto;
+}
+
+.bigprojects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigprojects img {
+    border: 2px solid black;
+}
+
+.bigprojects img:hover {
+    opacity: .5;
+}
+
+.smallproject{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.smallprojectimg li {
+    list-style: none;
+    display: inline-block;
+}
+
+.smallprojectimg img {
+    display: inline-block;
+    max-width: 260px;
+    border: 2px solid black;
+}
+
+#hrp {
+    margin-left: 120px;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    display: flex;
+    padding: 10px 225px;
+}
+.Contact {
+    width: 80%;
+}
+
+
+.Contact li {
+    list-style: none;
+    display: inline-block;
+}
+ .Contactlinks {
+    list-style: none;
+    text-decoration: none;
+ }
+
+ .footerbutton {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+
+ }
+
+
+/*Id's section*/
+#name {
+    float: left;
+    font-size: 200%;
+    font-weight: 900;
+    display: block;
+    text-align: center;  
+}
+
+/*MEDIA SECTION FOR OTHER DEVICES*/
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .Workimages {
+        max-width: 320px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .Workimages {
+        max-width: 480px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .Workimages {
+        max-width: 768px;
+    }
+
+}
